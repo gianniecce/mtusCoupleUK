@@ -35,6 +35,9 @@ MtusUK2000D1 = subset(MtusUK2000, diary == 1)
 MtusUK2000D2 = subset(MtusUK2000, diary == 2)
 ########
 
+MtusUK2000D1[1:5, 1:15]
+MtusUK2000D2[1:5, 1:15]
+
 # merge Aggregate and Sequences FILES 
 ########
 dataCompleteD1 = TimeUsedataAggregateSequence(dataAggregate = MtusUK2000D1, dataSequenceActivity = SeqActD1)
